@@ -1,0 +1,1210 @@
+:root {
+    --white: #e8eaea;
+    --lightgreen: #daece7; 
+    --orange: #ad481d; 
+    --black: #2e2f2f; 
+    --red: #be1e2e; 
+    --darkgrey: #595959;
+    --green: #566255;
+}
+
+
+/*Underside om mel*/
+
+    .meta h2 {
+        font-family: cy, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin: 5%;
+    }
+
+    .infographic p {
+    font-family: cy, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+    .mani p {
+    font-family: cy, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid var(--black);
+    line-height: 2;
+}
+
+    .tipo p {
+    font-family: cy, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid var(--black);
+    line-height: 2;
+}
+
+    .durum p {
+    font-family: cy, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid var(--black);
+    line-height: 2;
+}
+
+    .pizza p {
+    font-family: cy, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 1px solid var(--black);
+    line-height: 2;
+} 
+
+    .generel p {
+    font-family: cy, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2;
+}
+
+/*Underside opskrifter*/
+
+    .pizzadej h2 {
+        font-family: cy, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .pizzadej img {
+        border: 1px solid var(--green);
+        box-sizing: border-box;
+        padding: 8px;
+    }
+
+    .metatekstopskrifter p {
+    font-family: cy, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    }
+
+    .metatekstopskrifter h2 {
+        font-family: cy, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin-bottom: 5%;
+    }
+
+    .opskrifter img {
+        border: 1px solid var(--green);
+        box-sizing: border-box;
+        padding: 8px;
+    }
+
+    .opskrifter h2 {
+        font-family: cy, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: var(--green);
+    }
+
+    .opskrifter a {
+        text-decoration: none;
+        color: var(--green);
+    }
+
+    .opskrifter h2 a:hover {
+        text-decoration: underline;
+        opacity: 0.7;
+
+    }
+
+    .opskrifter h2 a:visited {
+        color: var(--green);
+        text-decoration: none;
+    }
+
+    .pizzadej a {
+        text-decoration: none;
+        color: var(--green);
+    }
+
+    .pizzadej h2 a:hover {
+        text-decoration: underline;
+        opacity: 0.7;
+        color: var(--black);
+    }
+
+    .pizzadej h2 a:visited {
+        color: var(--green);
+        text-decoration: none;
+    }
+
+    /*Underside om Amo*/
+
+    .om1 p {
+        font-family: cy, sans-serif;
+        font-weight: 300;
+        font-style: normal; 
+    }
+
+    .omamo1 h2 {
+        font-family: cy, sans-serif;
+        font-weight: 500;
+        font-style: normal; 
+    }
+
+    .omamo2 h2 {
+        font-family: cy, sans-serif;
+        font-weight: 500;
+        font-style: normal; 
+    }
+
+    .omamo3 h2 {
+        font-family: cy, sans-serif;
+        font-weight: 500;
+        font-style: normal; 
+    }
+
+    .ommobil p {
+        font-family: cy, sans-serif;
+        font-weight: 300;
+        font-style: normal; 
+    }
+
+    .omcomputer {
+        font-family: cy, sans-serif;
+        font-weight: 300;
+        font-style: normal; 
+    }
+
+    /*Underside konkurrencer*/
+
+    .konkurrencer h2 {
+        font-family: cy, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .konkurrencer p {
+        font-family: cy, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .konkurrencercom h2 {
+        font-family: cy, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+    .konkurrencercom p {
+        font-family: cy, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    /*Opskrift på Sød Kartoffel pizza*/
+
+    .sweettruffle h2 {
+        font-family: cy, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+  
+      .sweettruffle hr {
+        border-top: 0.5px solid var(--green);
+      }
+  
+      .sweettruffle p {
+        font-family: cy, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      .sweettruffle h6 {
+        font-family: cy, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .sweettruffle li {
+        font-family: cy, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        list-style-type: circle;
+        }
+
+      
+
+/*Mobil-vertikal*/
+@media screen and (min-width:320px) and (max-width: 810px) {
+
+    /*Undersiden mel*/ 
+    .infographic img {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .infographic p {
+        margin-left: 7%;
+        line-height: 2;
+        font-size: 15px;
+        margin-right: 7%;
+    }
+
+    .melbilleder img {
+        width: 40%;
+        float: right;
+    }
+
+    .mani p {
+        font-size: 12px;
+        margin: 7%;
+        padding: 2%;
+    }
+
+    .tipo p {
+        font-size: 12px;
+        margin: 7%;
+        padding: 2%;
+    }
+  
+    .durum p {
+        font-size: 12px;
+        margin: 7%;
+        padding: 2%;
+    }
+
+    .pizza p {
+        font-size: 12px;
+        margin: 7%;
+        padding: 2%;
+    }
+
+    .generel p {
+        margin-left: 7%;
+        line-height: 2;
+        font-size: 15px;
+        margin-bottom: 5%;
+    }
+  
+
+    /*Undersiden opskrifter*/ 
+
+    .metatekstopskrifter {
+        font-size: 18px;
+        margin: 5%;
+        padding: 5%;
+     }
+    .opskrifter h2, .pizzadej h2 {
+        font-size: 40px;
+        color: var(--green);
+    }
+
+    .pizzadej img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid var(--green);
+        margin-bottom: 5%;
+        max-height: 210px;
+    }
+
+    .opskrifter img {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid var(--green);
+        margin-bottom: 5%;
+        max-height: 210px;
+    }
+
+    .pizzadej h2 {
+        margin-left: 10%;
+        margin-top: -8%;
+        margin-bottom: 10%;
+    }
+
+    .truffle h2 {
+        margin-left: 10%;
+        margin-top: -8%;
+        margin-bottom: 10%;
+    }
+
+    .tasty h2 {
+        margin-left: 10%;
+        margin-top: -8%;
+        margin-bottom: 10%;
+    }
+
+    .spicy h2 {
+        margin-left: 10%;
+        margin-top: -8%;
+        margin-bottom: 10%;
+    }
+
+    .potato h2 {
+        margin-left: 10%;
+        margin-top: -8%;
+        margin-bottom: 10%;
+    }
+
+    .apple h2 {
+        margin-left: 10%;
+        margin-top: -8%;
+        margin-bottom: 10%;
+    }
+
+    /*Om Amo underside*/ 
+
+    .omcomputer {
+        display: none;
+    }
+
+
+    .omamo2 h2 {
+        margin: 5%;
+    }
+    .om1 {
+        display: none;
+    }
+
+    .ommobil p{
+        font-size: 20px;
+        line-height: 2.5;
+        margin: 5%;
+    }
+
+    .hvedemel {
+        width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid var(--black);
+    }
+
+    .kort {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7%;
+        border: 1px solid var(--black);
+    }
+
+    .historie {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid var(--black);
+        margin-bottom: 5%;
+    }
+
+    /*underside konkurrencer*/
+
+    .konkurrencercom {
+        display: none;
+    }
+
+    .konkurrencer h2 {
+        font-size: 30px;
+        text-align: center;
+        margin: 5%;
+    }
+
+
+    .deltag {
+        font-size: 20px;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .karing  {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .vindere {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .konkurrencer img {
+        width: 80%;
+        margin: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pizzakursus, .spade, .forbrug {
+        font-size: 15px;
+        line-height: 2;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+
+    /*Underside - opskrift på Sweet truffle*/
+
+    .tekstcom {
+        display: none;
+      }
+  
+      .sweettruffle h2 {
+        text-align: center;
+        margin-top: 5%;
+      }
+  
+      .sweettruffle hr {
+        width: 50%;
+        margin-left: 25%;
+      }
+  
+      .sweettruffle img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        border: 1px solid var(--black);
+        margin-top: 5%;
+      }
+
+      .sweettruffle p {
+        margin: 5%;
+        font-size: 15px;
+        background-color: var(--lightgreen);
+        padding: 5%;
+        line-height: 1.8;
+      }
+
+      .tid {
+          text-align: center;
+          
+      }
+    
+      .sweettruffle h6 {
+          text-align: center;
+          font-size: 20px;
+          background-color: var(--lightgreen);
+          padding: 5%;
+          margin: 5%;
+      }
+
+      .sweettruffle li {
+          margin-left: 20%;
+      }
+
+      .sweettruffle ul {
+          background-color: var(--lightgreen);
+          margin: 5%;
+          padding: 5%;
+      }
+
+      .opskriften {
+          line-height: 1.8;
+      } 
+
+
+}
+    /*Mobil Horisontail*/
+@media screen and (min-width: 800px) and (max-width:999px) {
+
+    /*Underside mel*/
+    .infographic img {
+        width: 90%;
+        margin-top: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .infographic p {
+        margin-left: 7%;
+        line-height: 2;
+        font-size: 15px;
+    }
+
+    .melbilleder img {
+        width: 25%;
+        float: right;
+        margin-right: 5%;
+    }
+
+    .mani p {
+        font-size: 13px;
+        margin: 7%;
+        padding: 2%;
+        padding-bottom: 6%;
+    }
+
+    .tipo p {
+        font-size: 13px;
+        margin: 7%;
+        padding: 2%;
+        padding-bottom: 9%;
+    }
+
+    .durum p {
+        font-size: 13px;
+        margin: 7%;
+        padding: 2%;
+        padding-bottom: 6%;
+    }
+
+    .pizza p {
+        font-size: 13px;
+        margin: 7%;
+        padding: 2%;
+        padding-bottom: 12%;
+    }
+
+
+     /*Undersiden opskrifter*/ 
+
+     .metatekstopskrifter {
+        font-size: 20px;
+        margin: 5%;
+     }
+     .pizzadej img {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid var(--green);
+        margin-bottom: 15%;
+    }
+
+
+     .opskrifter h2 {
+        font-size: 45px;
+        margin: 7%;
+        color: var(--green);
+    }
+
+    .opskrifter img {
+        width: 90%;
+        margin: 5% ;
+        margin-bottom: 15%;
+    }
+
+    .top {
+        display: flex;
+      }
+      
+    .pizzadej, .potato {
+        flex: 50%;
+        padding: 5px;
+    } 
+
+    .overst {
+        display: flex;
+      }
+      
+    .truffle, .tasty {
+        flex: 50%;
+        padding: 5px;
+    } 
+
+    .opskrifter img {
+        max-height: 228px ;
+    }
+
+    .nederst {
+        display: flex;
+      }
+      
+    .spicy, .apple {
+        flex: 50%;
+        padding: 5px;
+    } 
+    .truffle h2 {
+        position: absolute;
+        top: 50%;
+        left: 16%;
+        transform: translate(-60%, 1400%);
+    }
+
+    .tasty h2 {
+        position: absolute;
+        top: 50%;
+        left: 18%;
+        transform: translate(80%, 1400%); 
+    }
+
+    .spicy h2 {
+        position: absolute;
+        top: 50%;
+        left: 18%;
+        transform: translate(-60%, 1880%);
+    }
+
+    .apple h2 {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: translate(90%, 1880%); 
+    }
+
+    .potato h2 {
+        position: absolute;
+        top: 110%;
+        left: 17%;
+        transform: translate(80%, 580%); 
+    }
+
+    .pizzadej h2 {
+        font-size: 45px;
+        position: absolute;
+        top: 110%;
+        left: 10%;
+        transform: translate(-60%, 580%);
+    }
+
+    /*Underside om Amo*/
+
+
+    .ommobil {
+        display: none;
+    }
+
+    .omcomputer {
+        display: none;
+    }
+
+    .omamo1 h2 {
+        margin: 5%;
+    }
+    .om1 p{
+        font-size: 15px;
+        line-height: 2.5;
+        float: left;
+        margin: 5%;
+    }
+
+    .hvedemel {
+        width: 30%;
+        float: right;
+        border: 1px solid var(--green);
+        margin-right: 5%;
+        margin-top: 7%;
+    }
+
+    .kort {
+        width: 30%;
+        float: right;
+        border: 1px solid var(--green);
+        margin-right: 5%;
+        margin-top: 12%;
+    }
+
+    .historie {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid var(--green);
+        margin-bottom: 5%;
+    }
+    
+     /*underside konkurrencer*/
+
+     .konkurrencercom {
+         display: none;
+     }
+
+     .konkurrencer h2 {
+        font-size: 30px;
+        text-align: center;
+        margin: 5%;
+    }
+
+
+    .deltag {
+        font-size: 20px;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .karing  {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .vindere {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .konkurrencer img {
+        width: 70%;
+        margin: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pizzakursus, .spade, .forbrug {
+        font-size: 15px;
+        line-height: 2;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 10%;
+    }
+
+    /*Underside - opskrift på Sweet truffle*/
+
+    .tekstcom {
+        display: none;
+      }
+  
+      .sweettruffle h2 {
+        text-align: center;
+        margin-top: 5%;
+      }
+  
+      .sweettruffle hr {
+        width: 50%;
+        margin-left: 25%;
+      }
+  
+      .sweettruffle img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        border: 1px solid var(--black);
+        margin-top: 5%;
+      }
+
+      .sweettruffle p {
+        margin: 5%;
+        font-size: 15px;
+        background-color: var(--lightgreen);
+        padding: 5%;
+        line-height: 1.8;
+      }
+
+      .tid {
+          text-align: center;
+      }
+    
+      .sweettruffle h6 {
+          text-align: center;
+          font-size: 20px;
+          background-color: var(--lightgreen);
+          padding: 5%;
+          margin: 5%;
+      }
+
+      .sweettruffle li {
+          margin-left: 20%;
+      }
+
+      .sweettruffle ul {
+          background-color: var(--lightgreen);
+          margin: 5%;
+          padding: 5%;
+      }
+
+      .opskriften {
+          line-height: 1.8;
+      } 
+
+}
+
+/*computer*/
+@media screen and (min-width: 1000px) {
+
+    .meta h2 {
+        font-size: 40px;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+    }
+    /*underside mel*/
+    .infographic img {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 7%;
+    }
+
+    .infographic p {
+        font-size: 20px;
+        line-height: 2;
+        margin: 5%;
+    }
+
+    .melbilleder img {
+        width: 20%;
+        float: left;
+        margin-left: 6%;
+    }
+
+    .mani p {
+        font-size: 18px;
+        padding: 2%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        margin-right: 7%;
+    }
+
+    .tipo p {
+        font-size: 18px;
+        padding: 2%;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-right: 7%;
+    }
+
+    .durum p {
+        font-size: 18px;
+        padding: 2%;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-right: 7%;
+    }
+
+    .pizza p {
+        font-size: 18px;
+        padding: 2%;
+        margin-left: 5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        margin-right: 7%;
+    }
+
+
+    .generel p {
+        margin-left: 7%;
+        line-height: 2;
+        font-size: 15px;
+        margin-bottom: 10%;
+        margin-top: 20%;
+    }
+
+    /*underside opskrifter */
+
+    .metatekstopskrifter {
+        font-size: 25px;
+        margin: 7%;
+    }
+
+    .metatekstopskrifter p {
+        line-height: 2;
+    }
+
+    .top {
+        display: flex;
+      }
+      
+    .pizzadej, .potato {
+        flex: 50%;
+        padding: 5px;
+    } 
+
+
+    .overst {
+        display: flex;
+      }
+      
+    .truffle, .tasty {
+        flex: 50%;
+        padding: 5px;
+    } 
+
+    .opskrifter img {
+        width: 80%;
+        margin-left: 10%;
+        max-height: 400px;
+        margin-bottom: 20%;
+
+    }
+
+    .nederst {
+        display: flex;
+      }
+      
+    .spicy, .apple {
+        flex: 50%;
+        padding: 5px;
+    } 
+
+    .opskrifter h2 {
+        font-size: 80px;
+    }
+
+    .pizzadej h2 {
+        position: absolute;
+        top: 110%;
+        left: 18%;
+        transform: translate(-52%, 300%);
+        font-size: 80px;
+    }
+
+    .truffle h2 {
+        position: absolute;
+        top: 115%;
+        left: 20%;
+        transform: translate(-42%, 720%);
+    }
+
+    .tasty h2 {
+        position: absolute;
+        top: 115%;
+        left: 20%;
+        transform: translate(96%, 720%); 
+    }
+
+    .spicy h2 {
+        position: absolute;
+        top: 120%;
+        left: 20%;
+        transform: translate(-38%, 1160%);
+    }
+
+    .apple h2 {
+        position: absolute;
+        top: 120%;
+        left: 18%;
+        transform: translate(110%, 1160%); 
+    }
+
+    .potato h2 {
+        position: absolute;
+        top: 110%;
+        left: 20%;
+        transform: translate(100%, 300%); 
+    }
+
+    /*Underside om*/
+
+    .om1 {
+        display: none;
+    }
+
+    .ommobil {
+        display: none;
+    }
+
+    .omamo3 h2 {
+        font-family: cy, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 40px;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .omcomputer p {
+        margin-left: 5%;
+        margin-top: 3%;
+        float: left;
+        line-height: 3;
+        max-width: 900px;
+    }
+
+    .hvedemel {
+        width:25%;
+        float: right;
+        border: 1px solid var(--black);
+        margin-right: 5%;
+        margin-top: 4%;
+    }
+
+    .kort {
+        width: 40%;
+        float: left;
+        border: 1px solid var(--black);
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .historie {
+        width: 40%;
+        max-height: 440px;
+        float: right;
+        border: 1px solid var(--black);
+        margin-bottom: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+
+
+    /*Underside Konkurrencer*/ 
+  
+    .konkurrencer {
+        display: none;
+    }
+    .konkurrencercom h2 {
+        font-size: 50px;
+        text-align: center;
+        margin: 5%;
+    }
+    .deltagcom {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .karingcom  {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .vinderecom {
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 3%;
+    }
+
+    #kursusid {
+        margin-left: 4%;
+    }
+
+    .column img {
+        float: left;
+        width: 30%;
+        border: 1px solid var(--black);
+        max-height: 274px;
+        margin: 7px;
+      }
+
+      #allemel {
+          margin-right: 3%;
+      }
+
+    .pizzakursuscom, .forbrugcom, .spadecom {
+        float: left;
+        width: 33.33%;
+  }
+  
+    .text:after {
+        content: "";
+        display: table;
+        clear: both;
+  }
+    
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+    .pizzakursuscom, .spadecom, .forbrugcom {
+        font-size: 12px;
+        line-height: 2;
+        margin-bottom: 5%;
+    }
+
+    .pizzakursuscom  {
+        margin-left: 5%;
+        max-width: 405px;
+    }
+
+    .forbrugcom {
+        margin-left: 3%;
+        max-width: 405px;
+    }
+
+    .spadecom {
+        margin-left: 2%;
+        max-width: 405px;
+    }
+
+    /*Underside - opskrift på Sweet truffle*/
+
+    .tekstmobil {
+        display: none;
+    }
+  
+    .sweettruffle h2 {
+        text-align: center;
+        margin-top: 5%;
+        font-size: 50px;
+      }
+  
+    .sweettruffle hr {
+        width: 50%;
+        margin-left: 25%;
+      }
+  
+    .sweettruffle img {
+        float: right;
+        width: 30%;
+        border: 1px solid var(--black);
+        margin: 8%;
+      }
+
+    .tekstcom  {
+          font-size: 30px;
+          background-color: var(--lightgreen);
+          padding: 5%;
+          padding-bottom: 8%;
+          padding-top: 7%;
+          margin: 5%;
+      }
+
+    .tid {
+          text-align: center;
+          background-color: var(--lightgreen);
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 2%;
+          padding: 5%;
+          font-size: 20px;
+      }
+    
+    .ingredienser h6 {
+          text-align: center;
+          text-decoration: underline;
+          text-decoration-thickness: from-font;  
+          float: left;
+          font-size: 20px;
+          background-color: var(--lightgreen);
+          padding: 5%;
+          padding-left: 15%;
+          padding-right: 15%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 2%;
+      }
+
+      .fremgangs h6 {
+          float: right;
+          text-align: center;
+          font-size: 20px;
+          background-color: var(--lightgreen);
+          padding: 5%;
+          padding-left: 15%;
+          padding-right: 15%;
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 2%;
+      }
+
+    .liste ul {
+        float: left;
+        background-color: var(--lightgreen);
+        margin-left: 5%;
+        padding-left: 13.7%;
+        padding-right: 10%;
+        line-height: 2;
+        padding-bottom: 15.5%;
+      }
+
+    .opskriften p{
+          line-height: 1.8;
+          float: right;
+          background-color: var(--lightgreen);
+          margin-right: 5%;
+          width: 450px;
+          padding-right: 4.9%;
+          padding-left: 5%;
+          padding-bottom: 5%;
+      } 
+
+
+
+}
